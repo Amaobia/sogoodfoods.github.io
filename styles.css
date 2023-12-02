@@ -1,0 +1,147 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:rgb(255, 136, 0);
+}
+#mainC{
+    font-family:Roboto, Arial;
+    text-align:center;
+    color:hsl(0, 0%, 0%);
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    flex-wrap:wrap;
+    font-size:3em;
+    background-image: url('images/cakes-5251204_1280.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    border-bottom:5px solid rgb(165, 99, 42);
+}
+#aboutUs{
+    font-family:Roboto, Arial;
+    text-align:center;
+    font-size:20px;
+}
+#mainC h1, #mainC i{
+    animation:heading 5s;
+}
+#mainC b{
+    font-size:2em;
+}
+@keyframes heading {
+    0% {opacity:0}
+    100% {opacity:1}
+}
+header{
+    width:100%;
+    font-family:Roboto, Arial;
+    display:none;
+    flex-wrap:wrap;
+    flex-direction:row;
+    border-bottom:2px solid gray;
+    position:fixed;
+    top:0;
+    background-color:rgb(204, 204, 204);
+}
+header span, header a, #headerButton{
+    background-color:rgb(37, 37, 37);
+    display:inline-flex;
+    flex-wrap:nowrap;
+    width:25%;
+    text-align:center;
+    padding-top:20px;
+    padding-bottom:20px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    font-size:22.5px;
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+    outline:0;
+    border:0;
+}
+@media only screen and (max-width:450px) {
+    header{
+        display:none;
+    }
+    #aboutUs p{
+        width:100%;
+    }
+}
+@media only screen and (min-width:451px) {
+    #aboutUs p{
+        width:50%;
+    }
+}
+header div{
+    display:inline;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+.otherHeaders:hover{
+    background-color:rgb(191, 191, 191);
+}
+.otherHeaders:active{
+    background-color:rgb(177, 177, 177);
+}
+#aboutUs{
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+}
+#Order{
+    font-family:Roboto, Arial;
+    text-align:center;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+#headerButton:hover{
+    background-color:rgb(191, 191, 191);
+}
+#headerButton:active{
+    background-color:rgb(177, 177, 177);
+}
+#headerButtonn{
+    border:0;
+    outline:0;
+    background-color:rgba(255, 255, 255, 0);
+}
+#fullscreen{
+    position:fixed;
+    top:0;
+    right:0;
+    outline:0;
+    border:0;
+    background-color:white;
+    border-bottom:1px solid black;
+    border-left:1px solid black;
+    display:none;
+}
+#fullscreen:hover{
+    background-color:rgb(247, 247, 247);
+}
+#fullscreen:active{
+    background-color:rgb(230, 230, 230);
+}
+#Order p{
+    font-size:20px;
+}
+main{
+    width:100%;
+}
+#contactUs{
+    font-family:Roboto, Arial;
+    text-align:center;
+    width:100%;
+    font-size:18px;
+}
